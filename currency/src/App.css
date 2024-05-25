@@ -1,0 +1,127 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  font-family:sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(3, 3, 59, 0.853);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 600px;
+  height: 500px;
+  /* background-color: rgb(248, 248, 248); */
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow:5px 0px 20px  rgb(24, 89, 219); ;
+
+  padding: 10px 20px;
+  background-image: url('assets/cash.png');
+  background-size: 45px;
+  background-repeat: no-repeat;
+  background-position-y: 15px;
+  background-position-x: 30px;
+  margin-left: 800px;
+  margin-top: 100px;
+
+  
+
+}
+h1{
+  color: #3498db;
+  
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 25px;
+  padding: 15px 120px;
+  margin-bottom: 10px;
+  border-top: 2px dashed;
+  border-bottom: 2px dashed;
+ 
+}
+label{
+  color: #d7d8e3;
+  display: block;
+  margin-bottom: 20px;
+}
+input,select{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  outline:none;
+  color: aliceblue;
+}
+option{
+  background-color: black;
+}
+select:focus,select:hover{
+  border-color: #3498db;
+  cursor: pointer;
+}
+input:focus,input:hover{
+  border-color: #3498db;
+}
+.result{
+  border: 2px dotted #3498db;
+  padding: 12px 65px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  
+}
+.result p{
+  color: #3498db;
+  font-weight: bold;
+  text-align: center;
+}
+.indTousd{
+  color: white;
+  /* border: 1px solid black; */
+  width: 500px;
+  padding: 10px;
+  position: absolute;
+  bottom: 60px;
+  right: 920px;
+  
+}
+table{
+  border: 2px solid rgb(24, 170, 219);
+  padding: 15px;
+  row-gap: 10px;
+  border-collapse: collapse;
+  width: 600px;
+  height: 500px;
+  
+  
+}
+th{
+  border: 1px solid rgb(24, 170, 219);
+  padding: 10px;
+  
+  
+
+  
+}
+tr,td{
+  border: 1px solid rgb(24, 170, 219);
+ padding: 10px;
+  
+}
+h2{
+  position: absolute;
+  text-align: center;
+  color: #3498db;
+  font-size: 80px;
+  text-transform: capitalize;
+  font-family:'Times New Roman', Times, serif;
+  filter: drop-shadow(10px 10px 5px black);
+  top: 20px;
+  left: 25%;
+}
