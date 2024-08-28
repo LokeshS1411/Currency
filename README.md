@@ -82,3 +82,8 @@ Feel free to fork this repository and submit pull requests. For major changes, p
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 API Link  : https://v6.exchangerate-api.com/v6/46d2d286f827a87005a27870/latest/USD
+
+##OUTPUT
+
+![28 08 2024_21 46 48_REC](https://github.com/user-attachments/assets/29f3c6e9-3b48-4c2a-b003-e92d3a725a7b)
+
