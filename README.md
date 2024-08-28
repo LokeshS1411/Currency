@@ -40,7 +40,7 @@ This is a simple Currency Converter application built using HTML, CSS, JavaScrip
 
 ### Clone the repository
 ```bash
-git clone https://github.com/yourusername/currency-converter.git
+git clone :https://github.com/LokeshS1411/Currency.git
 cd currency-converter
 ```
 
